@@ -1,0 +1,661 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue",Arial,sans-serif; }
+
+p {
+  padding: 3em 1em 1em;
+  font-size: 1.4em; }
+
+div {
+  margin: 0 auto;
+  width: 100%; }
+
+span {
+  font-weight: 400;
+  display: block; }
+  span b {
+    padding: 1.4em;
+    display: block; }
+  span.green-beige {
+    color: #fff;
+    background-color: #bebd7f; }
+  span.beige {
+    color: #fff;
+    background-color: #c2b078; }
+  span.sand-yellow {
+    color: #fff;
+    background-color: #c6a664; }
+  span.signal-yellow {
+    color: #fff;
+    background-color: #e5be01; }
+  span.golden-yellow {
+    color: #fff;
+    background-color: #cda434; }
+  span.honey-yellow {
+    color: #fff;
+    background-color: #a98307; }
+  span.maize-yellow {
+    color: #fff;
+    background-color: #e4a010; }
+  span.daffodil-yellow {
+    color: #fff;
+    background-color: #dc9d00; }
+  span.brown-beige {
+    color: #fff;
+    background-color: #8a6642; }
+  span.lemon-yellow {
+    color: #fff;
+    background-color: #c7b446; }
+  span.oyster-white {
+    color: #000;
+    background-color: #eae6ca; }
+  span.ivory {
+    color: #fff;
+    background-color: #e1cc4f; }
+  span.light-ivory {
+    color: #fff;
+    background-color: #e6d690; }
+  span.sulfur-yellow {
+    color: #000;
+    background-color: #edff21; }
+  span.saffron-yellow {
+    color: #fff;
+    background-color: #f5d033; }
+  span.zinc-yellow {
+    color: #000;
+    background-color: #f8f32b; }
+  span.grey-beige {
+    color: #fff;
+    background-color: #9e9764; }
+  span.olive-yellow {
+    color: #fff;
+    background-color: #999950; }
+  span.rape-yellow {
+    color: #fff;
+    background-color: #f3da0b; }
+  span.traffic-yellow {
+    color: #fff;
+    background-color: #fad201; }
+  span.ochre-yellow {
+    color: #fff;
+    background-color: #aea04b; }
+  span.luminous-yellow {
+    color: #000;
+    background-color: yellow; }
+  span.curry {
+    color: #fff;
+    background-color: #9d9101; }
+  span.melon-yellow {
+    color: #fff;
+    background-color: #f4a900; }
+  span.broom-yellow {
+    color: #fff;
+    background-color: #d6ae01; }
+  span.dahlia-yellow {
+    color: #fff;
+    background-color: #f3a505; }
+  span.pastel-yellow {
+    color: #fff;
+    background-color: #efa94a; }
+  span.pearl-beige {
+    color: #fff;
+    background-color: #6a5d4d; }
+  span.pearl-gold {
+    color: #fff;
+    background-color: #705335; }
+  span.sun-yellow {
+    color: #fff;
+    background-color: #f39f18; }
+  span.yellow-orange {
+    color: #fff;
+    background-color: #ed760e; }
+  span.red-orange {
+    color: #fff;
+    background-color: #c93c20; }
+  span.vermilion {
+    color: #fff;
+    background-color: #cb2821; }
+  span.pastel-orange {
+    color: #fff;
+    background-color: #ff7514; }
+  span.pure-orange {
+    color: #fff;
+    background-color: #f44611; }
+  span.luminous-orange {
+    color: #fff;
+    background-color: #ff2301; }
+  span.luminous-bright-orange {
+    color: #fff;
+    background-color: #ffa420; }
+  span.bright-red-orange {
+    color: #fff;
+    background-color: #f75e25; }
+  span.traffic-orange {
+    color: #fff;
+    background-color: #f54021; }
+  span.signal-orange {
+    color: #fff;
+    background-color: #d84b20; }
+  span.deep-orange {
+    color: #fff;
+    background-color: #ec7c26; }
+  span.salmon-range {
+    color: #fff;
+    background-color: #e55137; }
+  span.pearl-orange {
+    color: #fff;
+    background-color: #c35831; }
+  span.flame-red {
+    color: #fff;
+    background-color: #af2b1e; }
+  span.signal-red {
+    color: #fff;
+    background-color: #a52019; }
+  span.carmine-red {
+    color: #fff;
+    background-color: #a2231d; }
+  span.ruby-red {
+    color: #fff;
+    background-color: #9b111e; }
+  span.purple-red {
+    color: #fff;
+    background-color: #75151e; }
+  span.wine-red {
+    color: #fff;
+    background-color: #5e2129; }
+  span.black-red {
+    color: #fff;
+    background-color: #412227; }
+  span.oxide-red {
+    color: #fff;
+    background-color: #642424; }
+  span.brown-red {
+    color: #fff;
+    background-color: #781f19; }
+  span.beige-red {
+    color: #fff;
+    background-color: #c1876b; }
+  span.tomato-red {
+    color: #fff;
+    background-color: #a12312; }
+  span.antique-pink {
+    color: #fff;
+    background-color: #d36e70; }
+  span.light-pink {
+    color: #fff;
+    background-color: #ea899a; }
+  span.coral-red {
+    color: #fff;
+    background-color: #b32821; }
+  span.rose {
+    color: #fff;
+    background-color: #e63244; }
+  span.strawberry-red {
+    color: #fff;
+    background-color: #d53032; }
+  span.traffic-red {
+    color: #fff;
+    background-color: #cc0605; }
+  span.salmon-pink {
+    color: #fff;
+    background-color: #d95030; }
+  span.luminous-red {
+    color: #fff;
+    background-color: #f80000; }
+  span.luminous-bright-red {
+    color: #fff;
+    background-color: #fe0000; }
+  span.raspberry-red {
+    color: #fff;
+    background-color: #c51d34; }
+  span.pure--red {
+    color: #fff;
+    background-color: #cb3234; }
+  span.orient-red {
+    color: #fff;
+    background-color: #b32428; }
+  span.pearl-ruby-red {
+    color: #fff;
+    background-color: #721422; }
+  span.pearl-pink {
+    color: #fff;
+    background-color: #b44c43; }
+  span.red-lilac {
+    color: #fff;
+    background-color: #6d3f5b; }
+  span.red-violet {
+    color: #fff;
+    background-color: #922b3e; }
+  span.heather-violet {
+    color: #fff;
+    background-color: #de4c8a; }
+  span.claret-violet {
+    color: #fff;
+    background-color: #641c34; }
+  span.blue-lilac {
+    color: #fff;
+    background-color: #6c4675; }
+  span.traffic-purple {
+    color: #fff;
+    background-color: #a03472; }
+  span.purple-violet {
+    color: #fff;
+    background-color: #4a192c; }
+  span.signal-violet {
+    color: #fff;
+    background-color: #924e7d; }
+  span.pastel-violet {
+    color: #fff;
+    background-color: #a18594; }
+  span.telemagenta {
+    color: #fff;
+    background-color: #cf3476; }
+  span.pearl-violet {
+    color: #fff;
+    background-color: #8673a1; }
+  span.pearl-black-berry {
+    color: #fff;
+    background-color: #6c6874; }
+  span.violet-blue {
+    color: #fff;
+    background-color: #354d73; }
+  span.green-blue {
+    color: #fff;
+    background-color: #1f3438; }
+  span.ultramarine-blue {
+    color: #fff;
+    background-color: #20214f; }
+  span.saphire-blue {
+    color: #fff;
+    background-color: #1d1e33; }
+  span.black-blue {
+    color: #fff;
+    background-color: #18171c; }
+  span.signal-blue {
+    color: #fff;
+    background-color: #1e2460; }
+  span.brillant-blue {
+    color: #fff;
+    background-color: #3e5f8a; }
+  span.grey-blue {
+    color: #fff;
+    background-color: #26252d; }
+  span.azure-blue {
+    color: #fff;
+    background-color: #025669; }
+  span.gentian-blue {
+    color: #fff;
+    background-color: #0e294b; }
+  span.steel-blue {
+    color: #fff;
+    background-color: #231a24; }
+  span.light-blue {
+    color: #fff;
+    background-color: #3b83bd; }
+  span.cobalt-blue {
+    color: #fff;
+    background-color: #1e213d; }
+  span.pigeon-blue {
+    color: #fff;
+    background-color: #606e8c; }
+  span.sky-blue {
+    color: #fff;
+    background-color: #2271b3; }
+  span.traffic-blue {
+    color: #fff;
+    background-color: #063971; }
+  span.turquoise-blue {
+    color: #fff;
+    background-color: #3f888f; }
+  span.capri-blue {
+    color: #fff;
+    background-color: #1b5583; }
+  span.ocean-blue {
+    color: #fff;
+    background-color: #1d334a; }
+  span.water-blue {
+    color: #fff;
+    background-color: #256d7b; }
+  span.night-blue {
+    color: #fff;
+    background-color: #252850; }
+  span.distant-blue {
+    color: #fff;
+    background-color: #49678d; }
+  span.pastel-blue {
+    color: #fff;
+    background-color: #5d9b9b; }
+  span.pearl-gentian-blue {
+    color: #fff;
+    background-color: #2a6478; }
+  span.pearl-night-blue {
+    color: #fff;
+    background-color: #102c54; }
+  span.patina-green {
+    color: #fff;
+    background-color: #316650; }
+  span.emerald-green {
+    color: #fff;
+    background-color: #287233; }
+  span.leaf-green {
+    color: #fff;
+    background-color: #2d572c; }
+  span.olive-green {
+    color: #fff;
+    background-color: #424632; }
+  span.blue-green {
+    color: #fff;
+    background-color: #1f3a3d; }
+  span.moss-green {
+    color: #fff;
+    background-color: #2f4538; }
+  span.grey-olive {
+    color: #fff;
+    background-color: #3e3b32; }
+  span.bottle-green {
+    color: #fff;
+    background-color: #343b29; }
+  span.brown-green {
+    color: #fff;
+    background-color: #39352a; }
+  span.fir-green {
+    color: #fff;
+    background-color: #31372b; }
+  span.grass-green {
+    color: #fff;
+    background-color: #35682d; }
+  span.reseda-green {
+    color: #fff;
+    background-color: #587246; }
+  span.black-green {
+    color: #fff;
+    background-color: #343e40; }
+  span.reed-green {
+    color: #fff;
+    background-color: #6c7156; }
+  span.yellow-olive {
+    color: #fff;
+    background-color: #47402e; }
+  span.black-olive {
+    color: #fff;
+    background-color: #3b3c36; }
+  span.turquoise-green {
+    color: #fff;
+    background-color: #1e5945; }
+  span.may-green {
+    color: #fff;
+    background-color: #4c9141; }
+  span.yellow-green {
+    color: #fff;
+    background-color: #57a639; }
+  span.pastel-green {
+    color: #000;
+    background-color: #bdecb6; }
+  span.chrome-green {
+    color: #fff;
+    background-color: #2e3a23; }
+  span.pale-green {
+    color: #fff;
+    background-color: #89ac76; }
+  span.olive-drab {
+    color: #fff;
+    background-color: #25221b; }
+  span.traffic-green {
+    color: #fff;
+    background-color: #308446; }
+  span.fern-green {
+    color: #fff;
+    background-color: #3d642d; }
+  span.opal-green {
+    color: #fff;
+    background-color: #015d52; }
+  span.light-green {
+    color: #fff;
+    background-color: #84c3be; }
+  span.pine-green {
+    color: #fff;
+    background-color: #2c5545; }
+  span.mint-green {
+    color: #fff;
+    background-color: #20603d; }
+  span.signal-green {
+    color: #fff;
+    background-color: #317f43; }
+  span.mint-turquoise {
+    color: #fff;
+    background-color: #497e76; }
+  span.pastel-turquoise {
+    color: #fff;
+    background-color: #7fb5b5; }
+  span.pearl-green {
+    color: #fff;
+    background-color: #1c542d; }
+  span.pearl-opal-green {
+    color: #fff;
+    background-color: #193737; }
+  span.pure-green {
+    color: #fff;
+    background-color: #008f39; }
+  span.luminous-green {
+    color: #fff;
+    background-color: #00bb2d; }
+  span.squirrel-grey {
+    color: #fff;
+    background-color: #78858b; }
+  span.silver-grey {
+    color: #fff;
+    background-color: #8a9597; }
+  span.olive-grey {
+    color: #fff;
+    background-color: #7e7b52; }
+  span.moss-grey {
+    color: #fff;
+    background-color: #6c7059; }
+  span.signal-grey {
+    color: #fff;
+    background-color: #969992; }
+  span.mouse-grey {
+    color: #fff;
+    background-color: #646b63; }
+  span.beige-grey {
+    color: #fff;
+    background-color: #6d6552; }
+  span.khaki-grey {
+    color: #fff;
+    background-color: #6a5f31; }
+  span.green-grey {
+    color: #fff;
+    background-color: #4d5645; }
+  span.tarpaulin-grey {
+    color: #fff;
+    background-color: #4c514a; }
+  span.iron-grey {
+    color: #fff;
+    background-color: #434b4d; }
+  span.basalt-grey {
+    color: #fff;
+    background-color: #4e5754; }
+  span.brown-grey {
+    color: #fff;
+    background-color: #464531; }
+  span.slate-grey {
+    color: #fff;
+    background-color: #434750; }
+  span.anthracite-grey {
+    color: #fff;
+    background-color: #293133; }
+  span.black-grey {
+    color: #fff;
+    background-color: #23282b; }
+  span.umbra-grey {
+    color: #fff;
+    background-color: #332f2c; }
+  span.concrete-grey {
+    color: #fff;
+    background-color: #686c5e; }
+  span.graphite-grey {
+    color: #fff;
+    background-color: #474a51; }
+  span.granite-grey {
+    color: #fff;
+    background-color: #2f353b; }
+  span.stone-grey {
+    color: #fff;
+    background-color: #8b8c7a; }
+  span.blue-grey {
+    color: #fff;
+    background-color: #474b4e; }
+  span.pebble-grey {
+    color: #fff;
+    background-color: #b8b799; }
+  span.cement-grey {
+    color: #fff;
+    background-color: #7d8471; }
+  span.yellow-grey {
+    color: #fff;
+    background-color: #8f8b66; }
+  span.light-grey {
+    color: #000;
+    background-color: #d7d7d7; }
+  span.platinum-grey {
+    color: #fff;
+    background-color: #7f7679; }
+  span.dusty-grey {
+    color: #fff;
+    background-color: #7d7f7d; }
+  span.agate-grey {
+    color: #fff;
+    background-color: #b5b8b1; }
+  span.quartz-grey {
+    color: #fff;
+    background-color: #6c6960; }
+  span.window-grey {
+    color: #fff;
+    background-color: #9da1aa; }
+  span.traffic-grey-a {
+    color: #fff;
+    background-color: #8d948d; }
+  span.traffic-grey-b {
+    color: #fff;
+    background-color: #4e5452; }
+  span.silk-grey {
+    color: #fff;
+    background-color: #cac4b0; }
+  span.telegrey-1 {
+    color: #fff;
+    background-color: #909090; }
+  span.telegrey-2 {
+    color: #fff;
+    background-color: #82898f; }
+  span.telegrey-4 {
+    color: #000;
+    background-color: #d0d0d0; }
+  span.pearl-mouse-grey {
+    color: #fff;
+    background-color: #898176; }
+  span.green-brown {
+    color: #fff;
+    background-color: #826c34; }
+  span.ochre-brown {
+    color: #fff;
+    background-color: #955f20; }
+  span.signal-brown {
+    color: #fff;
+    background-color: #6c3b2a; }
+  span.clay-brown {
+    color: #fff;
+    background-color: #734222; }
+  span.copper-brown {
+    color: #fff;
+    background-color: #8e402a; }
+  span.fawn-brown {
+    color: #fff;
+    background-color: #59351f; }
+  span.olive-brown {
+    color: #fff;
+    background-color: #6f4f28; }
+  span.nut-brown {
+    color: #fff;
+    background-color: #5b3a29; }
+  span.red-brown {
+    color: #fff;
+    background-color: #592321; }
+  span.sepia-brown {
+    color: #fff;
+    background-color: #382c1e; }
+  span.chestnut-brown {
+    color: #fff;
+    background-color: #633a34; }
+  span.mahogany-brown {
+    color: #fff;
+    background-color: #4c2f27; }
+  span.chocolate-brown {
+    color: #fff;
+    background-color: #45322e; }
+  span.grey-brown {
+    color: #fff;
+    background-color: #403a3a; }
+  span.black-brown {
+    color: #fff;
+    background-color: #212121; }
+  span.orange-brown {
+    color: #fff;
+    background-color: #a65e2e; }
+  span.beige-brown {
+    color: #fff;
+    background-color: #79553d; }
+  span.pale-brown {
+    color: #fff;
+    background-color: #755c48; }
+  span.terra-brown {
+    color: #fff;
+    background-color: #4e3b31; }
+  span.pearl-copper {
+    color: #fff;
+    background-color: #763c28; }
+  span.cream {
+    color: #000;
+    background-color: #fdf4e3; }
+  span.grey-white {
+    color: #000;
+    background-color: #e7ebda; }
+  span.signal-white {
+    color: #000;
+    background-color: #f4f4f4; }
+  span.signal-black {
+    color: #fff;
+    background-color: #282828; }
+  span.jet-black {
+    color: #fff;
+    background-color: #0a0a0a; }
+  span.white-aluminium {
+    color: #fff;
+    background-color: #a5a5a5; }
+  span.grey-aluminium {
+    color: #fff;
+    background-color: #8f8f8f; }
+  span.pure-white {
+    color: #000;
+    background-color: white; }
+  span.graphite-black {
+    color: #fff;
+    background-color: #1c1c1c; }
+  span.traffic-white {
+    color: #000;
+    background-color: #f6f6f6; }
+  span.traffic-black {
+    color: #fff;
+    background-color: #1e1e1e; }
+  span.papyrus-white {
+    color: #000;
+    background-color: #d7d7d7; }
+  span.pearl-light-grey {
+    color: #fff;
+    background-color: #9c9c9c; }
+  span.pearl-dark-grey {
+    color: #fff;
+    background-color: #828282; }
