@@ -10,6 +10,12 @@ p {
   padding: 3em 1em 1em;
   font-size: 1.4em; }
 
+a {
+  color: #b33;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 div {
   margin: 0 auto;
   width: 100%; }
