@@ -4,11 +4,15 @@
 
 body {
   font-size: 14px;
-  font-family: "Helvetica Neue",Arial,sans-serif; }
+  font-family: "Helvetica Neue",Helvetica,Calibri,Arial,sans-serif; }
 
 p {
-  padding: 3em 1em 1em;
-  font-size: 1.4em; }
+  padding: 0 1em 1em;
+  font-size: 1.4em;
+  font-weight: 300; }
+  p:first-child {
+    padding: 4em 0.8em 0.8em;
+    font-size: 1.8em; }
 
 a {
   color: #b33;
@@ -25,7 +29,8 @@ span {
   display: block; }
   span b {
     padding: 1.4em;
-    display: block; }
+    display: block;
+    font-weight: 300; }
   span.green-beige {
     color: #fff;
     background-color: #bebd7f; }

@@ -1,14 +1,16 @@
 @import "jason-colours";
 
 * {margin:0; padding:0;}
-body {font-size:14px; font-family:"Helvetica Neue",Arial,sans-serif;}
-p {padding:3em 1em 1em; font-size:1.4em;}
+body {font-size:14px; font-family:"Helvetica Neue",Helvetica,Calibri,Arial,sans-serif;}
+p {padding:0 1em 1em; font-size:1.4em; font-weight:300;
+  &:first-child {padding:4em 0.8em 0.8em; font-size:1.8em;}
+}
 a {color:#b33; text-decoration:none;
   &:hover {text-decoration:underline;}
 }
 div {margin:0 auto; width:100%;}
 span {font-weight:400; display:block;
-  b {padding:1.4em; display:block;}
+  b {padding:1.4em; display:block; font-weight:300;}
   &.green-beige {color:#fff; background-color:$green-beige;}
   &.beige {color:#fff; background-color:$beige;}
   &.sand-yellow {color:#fff; background-color:$sand-yellow;}
